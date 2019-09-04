@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Мазуркевич Ксения](https://up.htmlacademy.ru/htmlcss/26/user/883485).
-* Наставник: `Доминика Норт`.
+* Наставник: [Доминика Норт](https://htmlacademy.ru/profile/ponzona). 
 
 ---
 
