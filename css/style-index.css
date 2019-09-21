@@ -7,11 +7,15 @@ body {
 	text-transform: uppercase;
 	src: local('PT Sans') url;
 
-	background-color: white; 
+	background-color: white; 	
 }
 
 a {
 	text-decoration: none;
+}
+
+.content {
+	width: 1200px
 }
 
 .visually-hidden {
@@ -21,6 +25,8 @@ a {
 .menu ul {
 	list-style-type: none;
 	display: flex;	
+
+	height: 56px;
 }
 
 .menu li:first-child {
@@ -47,4 +53,11 @@ a {
 .welcome {
 	background-image: url(../img/welcome.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
+	/*height: 800px;
+	width: 1200px;*/
+}
+.welcome .svg{
+	margin: 0 auto;
+	display: block;
 }
