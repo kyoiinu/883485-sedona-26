@@ -6,4 +6,9 @@ body {
 	color: black;
 	text-transform: uppercase;
 	src: local('PT Sans') url;
+
+	background-image: url("img/background-photo.jpg");
+	background-color: white; 
+	background-repeat: no-repeat; 
+	background-position: top center;
 }
