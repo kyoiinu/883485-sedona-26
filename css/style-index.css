@@ -43,3 +43,7 @@ a {
 	display: flex;
 	list-style-type: none;
 }
+
+.welcome {
+	background-image: url(img/welcome.jpg);
+}
