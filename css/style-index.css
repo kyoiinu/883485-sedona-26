@@ -45,5 +45,6 @@ a {
 }
 
 .welcome {
-	background-image: url(img/welcome.jpg);
+	background-image: url(../img/welcome.jpg);
+	background-repeat: no-repeat;
 }
