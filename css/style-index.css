@@ -7,8 +7,15 @@ body {
 	text-transform: uppercase;
 	src: local('PT Sans') url;
 
-	background-image: url("img/background-photo.jpg");
 	background-color: white; 
-	background-repeat: no-repeat; 
-	background-position: top center;
 }
+
+a {
+	text-decoration: none;
+}
+
+.menu ul {
+	list-style-type: none;
+	display: flex;	
+}
+
