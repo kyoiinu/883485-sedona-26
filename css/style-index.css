@@ -14,8 +14,32 @@ a {
 	text-decoration: none;
 }
 
+.visually-hidden {
+	display: none;
+}
+
 .menu ul {
 	list-style-type: none;
 	display: flex;	
 }
 
+.menu li:first-child {
+	margin: 22px 74px 24px 72px;
+}
+
+.menu li:nth-child(2) {
+	margin: 22px 68px 24px 73px;
+}
+
+.menu li:nth-child(3) {
+	margin: 22px 73px 24px 76px;
+}
+
+.menu li:last-child{
+	margin: 22px 72px 24px 88px;
+}
+
+.social-media {
+	display: flex;
+	list-style-type: none;
+}
