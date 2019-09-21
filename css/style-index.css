@@ -1,4 +1,9 @@
 body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
 	color: black;
 	text-transform: uppercase;
+	src: local('PT Sans') url;
 }
