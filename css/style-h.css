@@ -1,0 +1,21 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	color: black;
+	text-transform: uppercase;
+	src: local('PT Sans') url;
+
+	background-color: white; 
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu ul {
+	list-style-type: none;
+	display: flex;	
+}
+
