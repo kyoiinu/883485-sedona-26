@@ -5,17 +5,170 @@ body {
 	line-height: 21px;
 	color: black;
 	text-transform: uppercase;
-	src: local('PT Sans') url;
+	src: local('PT Sans');
 
-	background-color: white; 
+	background-color: white; 	
 }
 
 a {
 	text-decoration: none;
 }
 
+.content {
+	width: 1200px
+}
+
+.visually-hidden {
+	display: none;
+}
+
+/*Header*/
+
 .menu ul {
 	list-style-type: none;
 	display: flex;	
+
+	height: 56px;
 }
 
+.menu li:first-child {
+	margin: 22px 74px 24px 72px;
+}
+
+.menu li:nth-child(2) {
+	margin: 22px 68px 24px 73px;
+}
+
+.menu li:nth-child(3) {
+	margin: 22px 73px 24px 76px;
+}
+
+.menu li:last-child{
+	margin: 22px 72px 24px 88px;
+}
+
+/*Footer*/
+
+footer {
+	display: flex;
+}
+
+.social-media a {
+	height: 48px;
+	width: 46px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #81b3d2;
+}
+
+.social-media a:first-child {
+	margin-right: 3px;
+}
+
+
+.social-media a:nth-child(2) {
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.social-media a:last-child {
+	margin-left: 3px;
+}
+
+.social-media {
+	display: flex;
+	list-style-type: none;
+}
+
+.social-media a:hover {
+	background-color: #669ec0;
+}
+
+.social-media a:active {
+	background-color: #5496bd;
+}
+
+.social-media a:active svg {
+	opacity: 0.3;
+}
+
+.logo-academy svg path {
+	fill: black;
+}
+
+.logo-academy:hover svg path {
+	fill: #81b3d2;
+}
+
+.logo-academy:active svg path {
+	fill: #bdbbbc;
+}
+
+/*Гостиницы*/
+
+.result ol {
+	list-style-type: none;
+}
+
+.result .name a {
+	font-size: 21px;
+	line-height: 26px;
+	color: black;
+}
+
+.result .name:hover a {
+	color: #81b3d2;
+}
+
+.result .name:active a {
+	color: rgba(0, 0, 0, 0.3)
+}
+
+.result .more {
+	display: block;
+
+	line-height: 27px;
+	width: 110px;
+
+	background-color: #81b3d2;
+	color: white;
+
+	text-align: center;
+}
+
+.result .more:hover {
+	background-color: #669ec0;
+}
+
+.result .more:active {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.result .book {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	color: white;
+	text-transform: uppercase;
+	src: local('PT Sans');
+
+	border: none;
+	background-color: #766357;
+
+	height: 27px;
+	width: 142px;
+
+}
+
+.result .book:hover {
+	background-color: #604e43;
+}
+
+.result .book:active {
+	background-color: #503e33;
+}
