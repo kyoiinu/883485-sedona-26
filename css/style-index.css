@@ -5,7 +5,7 @@ body {
 	line-height: 21px;
 	color: black;
 	text-transform: uppercase;
-	src: local('PT Sans') url;
+	src: local('PT Sans');
 
 	background-color: white; 	
 }
@@ -21,6 +21,8 @@ a {
 .visually-hidden {
 	display: none;
 }
+
+/*Header*/
 
 .menu ul {
 	list-style-type: none;
@@ -45,19 +47,194 @@ a {
 	margin: 22px 72px 24px 88px;
 }
 
+/*Footer*/
+
+footer {
+	display: flex;
+}
+
+.social-media a {
+	height: 48px;
+	width: 46px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #81b3d2;
+}
+
+.social-media a:first-child {
+	margin-right: 3px;
+}
+
+
+.social-media a:nth-child(2) {
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.social-media a:last-child {
+	margin-left: 3px;
+}
+
 .social-media {
 	display: flex;
 	list-style-type: none;
 }
 
+.social-media a:hover {
+	background-color: #669ec0;
+}
+
+.social-media a:active {
+	background-color: #5496bd;
+}
+
+.social-media a:active svg {
+	opacity: 0.3;
+}
+
+.logo-academy svg path {
+	fill: black;
+}
+
+.logo-academy:hover svg path {
+	fill: #81b3d2;
+}
+
+.logo-academy:active svg path {
+	fill: #bdbbbc;
+}
+
+/*Только для главной*/
+
 .welcome {
 	background-image: url(../img/welcome.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*height: 800px;
-	width: 1200px;*/
 }
+
 .welcome .svg{
 	margin: 0 auto;
 	display: block;
+}
+
+/*Форма*/
+
+.book-hotel .open {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	color: white;
+	text-transform: uppercase;
+	src: local('PT Sans');
+
+	height: 86px;
+	width: 568px;
+
+	background-color: #766357;
+	border: none;
+}
+
+.book-hotel .open:hover {
+	background-color: #604e43;
+}
+
+.book-hotel .open:active {
+	background-color: #503e33;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.book-hotel .find {
+
+    font-family: 'PT Sans', sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	color: white;
+	text-transform: uppercase;
+	src: local('PT Sans');
+
+	width: 458px;
+    height: 58px;
+
+    background-color: #81b3d2;
+    border: none;
+}
+
+.book-hotel .find:hover {
+	background-color: #669ec0;
+}
+
+.book-hotel .find:active {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+/*Кнопки в полях*/
+
+.book-hotel .calendar {
+	border: none;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+}
+
+.book-hotel .calendar path {
+	fill: #cacaca;
+}
+
+.book-hotel .calendar:hover path {
+	fill: black;
+}
+
+.book-hotel .calendar:active path {
+	fill: #81b3d2;
+}
+
+
+.book-hotel .plus-minus {
+    border: none;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+}
+
+.book-hotel .plus-minus line {
+    stroke: #cacaca;
+}
+
+.book-hotel .plus-minus:hover line {
+	stroke: black;
+}
+
+.book-hotel .plus-minus:active line {
+	stroke: #81b3d2;
+}
+
+/*Поля*/
+
+.book-hotel input {
+	width: 346px;
+	height: 38px;
+	background-color: #f2f2f2;
+	border: none;
+
+    font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+	color: black;
+	text-transform: uppercase;
+	src: local('PT Sans');
+
+}
+.book-hotel input:hover {
+	background-color: #ebebeb;
+}
+
+.book-hotel input:focus {
+	border: solid 2px #e5e5e5;
+	border-color: #e5e5e5;
+	background-color: white;
 }
