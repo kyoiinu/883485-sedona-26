@@ -1,13 +1,12 @@
 body {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 21px;
 	color: black;
 	text-transform: uppercase;
-	src: local('PT Sans');
 
-	background-color: white; 	
+	background-color: #f2f2f2; 	
 }
 
 a {
@@ -15,11 +14,11 @@ a {
 }
 
 .content {
-	width: 1200px
+	width: 1200px;
 }
 
 .visually-hidden {
-	display: none;
+	overflow: hidden;
 }
 
 /*Header*/
@@ -28,7 +27,6 @@ a {
 	list-style-type: none;
 	display: flex;	
 
-	height: 56px;
 }
 
 .menu li:first-child {
@@ -64,18 +62,12 @@ footer {
 	background-color: #81b3d2;
 }
 
-.social-media a:first-child {
-	margin-right: 3px;
-}
-
-
-.social-media a:nth-child(2) {
-	margin-right: 3px;
-	margin-left: 3px;
+.social-media a {
+	margin-right: 6px;
 }
 
 .social-media a:last-child {
-	margin-left: 3px;
+	margin-right: 0px;
 }
 
 .social-media {
@@ -86,6 +78,11 @@ footer {
 .social-media a:hover {
 	background-color: #669ec0;
 }
+
+.social-media a:focus {
+	background-color: #669ec0;
+}
+
 
 .social-media a:active {
 	background-color: #5496bd;
@@ -107,6 +104,10 @@ footer {
 	fill: #bdbbbc;
 }
 
+.logo-academy:focus svg path {
+	fill: #bdbbbc;
+}
+
 /*Только для главной*/
 
 .welcome {
@@ -123,13 +124,12 @@ footer {
 /*Форма*/
 
 .book-hotel .open {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 26px;
 	color: white;
 	text-transform: uppercase;
-	src: local('PT Sans');
 
 	height: 86px;
 	width: 568px;
@@ -149,13 +149,12 @@ footer {
 
 .book-hotel .find {
 
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 26px;
 	color: white;
 	text-transform: uppercase;
-	src: local('PT Sans');
 
 	width: 458px;
     height: 58px;
@@ -220,13 +219,12 @@ footer {
 	background-color: #f2f2f2;
 	border: none;
 
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 26px;
 	color: black;
 	text-transform: uppercase;
-	src: local('PT Sans');
 
 }
 .book-hotel input:hover {
