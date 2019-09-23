@@ -114,17 +114,17 @@ footer {
 	list-style-type: none;
 }
 
-.result .name a {
+.name a {
 	font-size: 21px;
 	line-height: 26px;
 	color: black;
 }
 
-.result .name:hover a {
+.name:hover a {
 	color: #81b3d2;
 }
 
-.result .name:active a {
+.name:active a {
 	color: rgba(0, 0, 0, 0.3)
 }
 
