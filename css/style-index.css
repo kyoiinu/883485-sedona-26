@@ -236,3 +236,68 @@ footer {
 	border-color: #e5e5e5;
 	background-color: white;
 }
+
+/*Гостиницы*/
+
+.result ol {
+	list-style-type: none;
+}
+
+.name a {
+	font-size: 21px;
+	line-height: 26px;
+	color: black;
+}
+
+.name:hover a {
+	color: #81b3d2;
+}
+
+.name:active a {
+	color: rgba(0, 0, 0, 0.3)
+}
+
+.result .more {
+	display: block;
+
+	line-height: 27px;
+	width: 110px;
+
+	background-color: #81b3d2;
+	color: white;
+
+	text-align: center;
+}
+
+.result .more:hover {
+	background-color: #669ec0;
+}
+
+.result .more:active {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.result .book {
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	color: white;
+	text-transform: uppercase;
+
+	border: none;
+	background-color: #766357;
+
+	height: 27px;
+	width: 142px;
+
+}
+
+.result .book:hover {
+	background-color: #604e43;
+}
+
+.result .book:active {
+	background-color: #503e33;
+}
