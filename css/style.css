@@ -82,10 +82,7 @@ footer {
 	list-style-type: none;
 }
 
-.social-media a:hover {
-	background-color: #669ec0;
-}
-
+.social-media a:hover,
 .social-media a:focus {
 	background-color: #669ec0;
 }
