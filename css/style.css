@@ -1,0 +1,311 @@
+body {
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	color: black;
+	text-transform: uppercase;
+
+	background-color: #f2f2f2; 	
+}
+
+a {
+	text-decoration: none;
+}
+
+.content {
+	width: 1200px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*Header*/
+
+.menu ul {
+	list-style-type: none;
+	display: flex;	
+
+}
+
+.menu li:first-child {
+	margin: 22px 74px 24px 72px;
+}
+
+.menu li:nth-child(2) {
+	margin: 22px 68px 24px 73px;
+}
+
+.menu li:nth-child(3) {
+	margin: 22px 73px 24px 76px;
+}
+
+.menu li:last-child{
+	margin: 22px 72px 24px 88px;
+}
+
+/*Footer*/
+
+footer {
+	display: flex;
+}
+
+.social-media a {
+	height: 48px;
+	width: 46px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #81b3d2;
+}
+
+.social-media li {
+	margin-right: 6px;
+}
+
+.social-media li:last-child {
+	margin-right: 0px;
+}
+
+.social-media {
+	display: flex;
+	list-style-type: none;
+}
+
+.social-media a:hover {
+	background-color: #669ec0;
+}
+
+.social-media a:focus {
+	background-color: #669ec0;
+}
+
+
+.social-media a:active {
+	background-color: #5496bd;
+}
+
+.social-media a:active svg {
+	opacity: 0.3;
+}
+
+.logo-academy svg path {
+	fill: black;
+}
+
+.logo-academy:hover svg path {
+	fill: #81b3d2;
+}
+
+.logo-academy:active svg path {
+	fill: #bdbbbc;
+}
+
+.logo-academy:focus svg path {
+	fill: #bdbbbc;
+}
+
+/*Только для главной*/
+
+.welcome {
+	background-image: url(../img/polygon.png), url(../img/welcome.jpg);
+	background-repeat: no-repeat;
+	background-size: 1201px, cover;
+	background-position: bottom center, center center;
+}
+
+.welcome .svg{
+	margin: 0 auto;
+	display: block;
+}
+
+/*Форма*/
+
+.book-hotel .open {
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	color: white;
+	text-transform: uppercase;
+
+	height: 86px;
+	width: 568px;
+
+	background-color: #766357;
+	border: none;
+}
+
+.book-hotel .open:hover {
+	background-color: #604e43;
+}
+
+.book-hotel .open:active {
+	background-color: #503e33;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.book-hotel .find {
+
+    font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	color: white;
+	text-transform: uppercase;
+
+	width: 458px;
+    height: 58px;
+
+    background-color: #81b3d2;
+    border: none;
+}
+
+.book-hotel .find:hover {
+	background-color: #669ec0;
+}
+
+.book-hotel .find:active {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+/*Кнопки в полях*/
+
+.book-hotel .calendar {
+	border: none;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+}
+
+.book-hotel .calendar path {
+	fill: #cacaca;
+}
+
+.book-hotel .calendar:hover path {
+	fill: black;
+}
+
+.book-hotel .calendar:active path {
+	fill: #81b3d2;
+}
+
+
+.book-hotel .plus-minus {
+    border: none;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+}
+
+.book-hotel .plus-minus line {
+    stroke: #cacaca;
+}
+
+.book-hotel .plus-minus:hover line {
+	stroke: black;
+}
+
+.book-hotel .plus-minus:active line {
+	stroke: #81b3d2;
+}
+
+/*Поля*/
+
+.book-hotel input {
+	width: 346px;
+	height: 38px;
+	background-color: #f2f2f2;
+	border: none;
+
+    font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+	color: black;
+	text-transform: uppercase;
+
+}
+.book-hotel input:hover {
+	background-color: #ebebeb;
+}
+
+.book-hotel input:focus {
+	border: solid 2px #e5e5e5;
+	border-color: #e5e5e5;
+	background-color: white;
+}
+
+/*Гостиницы*/
+
+.result ol {
+	list-style-type: none;
+}
+
+.name a {
+	font-size: 21px;
+	line-height: 26px;
+	color: black;
+}
+
+.name:hover a {
+	color: #81b3d2;
+}
+
+.name:active a {
+	color: rgba(0, 0, 0, 0.3)
+}
+
+.result .more {
+	display: block;
+
+	line-height: 27px;
+	width: 110px;
+
+	background-color: #81b3d2;
+	color: white;
+
+	text-align: center;
+}
+
+.result .more:hover {
+	background-color: #669ec0;
+}
+
+.result .more:active {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.result .book {
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	color: white;
+	text-transform: uppercase;
+
+	border: none;
+	background-color: #766357;
+
+	height: 27px;
+	width: 142px;
+
+}
+
+.result .book:hover {
+	background-color: #604e43;
+}
+
+.result .book:active {
+	background-color: #503e33;
+}
