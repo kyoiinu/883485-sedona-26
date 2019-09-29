@@ -132,14 +132,12 @@ footer {
 /*Форма*/
 
 .book-hotel .open {
-	/*font-family: 'PT Sans', Arial, sans-serif;*/
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 26px;
 	color: white;
 	text-transform: uppercase;
 
-	height: 86px;
 	width: 568px;
 
 	background-color: #766357;
@@ -157,7 +155,6 @@ footer {
 
 .book-hotel .find {
 
-    font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 26px;
@@ -227,7 +224,6 @@ footer {
 	background-color: #f2f2f2;
 	border: none;
 
-    font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 26px;
@@ -262,7 +258,7 @@ footer {
 }
 
 .name:active a {
-	color: rgba(0, 0, 0, 0.3)
+	color: rgba(0, 0, 0, 0.3);
 }
 
 .result .more {
@@ -287,7 +283,6 @@ footer {
 }
 
 .result .book {
-	font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 21px;
