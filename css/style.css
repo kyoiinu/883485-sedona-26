@@ -58,16 +58,11 @@ footer {
 	display: flex;
 }
 
-.social-media a {
-	height: 48px;
-	width: 46px;
-
+.social-media {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	background-color: #81b3d2;
+	list-style-type: none;
 }
+
 
 .social-media li {
 	margin-right: 6px;
@@ -77,9 +72,16 @@ footer {
 	margin-right: 0px;
 }
 
-.social-media {
+
+.social-media a {
+	height: 48px;
+	width: 46px;
+
 	display: flex;
-	list-style-type: none;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #81b3d2;
 }
 
 .social-media a:hover,
@@ -175,7 +177,6 @@ footer {
 .book-hotel .calendar {
 	border: none;
 	background-color: transparent;
-    background-repeat: no-repeat;
 }
 
 .book-hotel .calendar path {
@@ -193,8 +194,7 @@ footer {
 
 .book-hotel .plus-minus {
     border: none;
-	background-color: Transparent;
-    background-repeat:no-repeat;
+	background-color: transparent;
 }
 
 .book-hotel .plus-minus line {
@@ -284,7 +284,6 @@ footer {
 	border: none;
 	background-color: #766357;
 
-	height: 27px;
 	width: 142px;
 
 }
