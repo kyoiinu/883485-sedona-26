@@ -104,10 +104,7 @@ footer {
 	fill: #81b3d2;
 }
 
-.logo-academy:active svg path {
-	fill: #bdbbbc;
-}
-
+.logo-academy:active svg path,
 .logo-academy:focus svg path {
 	fill: #bdbbbc;
 }
@@ -159,7 +156,6 @@ footer {
 	text-transform: uppercase;
 
 	width: 458px;
-    height: 58px;
 
     background-color: #81b3d2;
     border: none;
@@ -217,7 +213,6 @@ footer {
 
 .book-hotel input {
 	width: 346px;
-	height: 38px;
 	background-color: #f2f2f2;
 	border: none;
 
@@ -244,17 +239,17 @@ footer {
 	list-style-type: none;
 }
 
-.name a {
+.hotel-name a {
 	font-size: 21px;
 	line-height: 26px;
 	color: black;
 }
 
-.name:hover a {
+.hotel-name:hover a {
 	color: #81b3d2;
 }
 
-.name:active a {
+.hotel-name:active a {
 	color: rgba(0, 0, 0, 0.3);
 }
 
