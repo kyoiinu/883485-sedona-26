@@ -1,0 +1,65 @@
+body {
+	min-height: 933px;
+	background-image: url('../img/setka/sedona-hotels.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 1280px auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.page {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.header {
+	min-height: 56px;
+	background-color: rgba(255, 192, 203, 0.2);
+	/*outline: rgb(255, 192, 203) solid;*/
+}
+
+.menu {
+	display: flex;
+	min-height: 56px;
+	background-color: rgba(255, 105, 180, 0.2);
+	/*outline: rgb(255, 105, 180) solid;*/
+}
+
+.for-a-while {
+	height: 303px;
+	background-color: rgba(255, 160, 122, 0.2);
+	/*outline: rgb(255, 160, 122) solid;*/
+}
+
+.result {
+	min-height: 453px;
+	background-color: rgba(199, 21, 133, 0.2);
+}
+
+.footer {
+	min-height: 120px;
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(255, 160, 122, 0.2);
+	/*outline: rgb(255, 160, 122) solid;*/
+}
+
+.box {
+	width: 400px;
+}
+
+.box:first-child {
+	background-color: rgba(0, 250, 154, 0.3);
+}
+
+.box:nth-child(2) {
+	background-color: rgba(144, 238, 144, 0.3);
+}
+
+.box:last-child {
+	background-color: rgba(0, 255, 127, 0.3);
+}
