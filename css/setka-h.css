@@ -32,10 +32,7 @@ ul {
 	/*outline: rgb(255, 160, 122) solid;*/
 }
 
-.result {
-	min-height: 453px;
-	background-color: rgba(199, 21, 133, 0.2);
-}
+
 
 .footer {
 	min-height: 120px;
