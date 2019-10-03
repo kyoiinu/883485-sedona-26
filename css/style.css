@@ -13,8 +13,10 @@ a {
 	text-decoration: none;
 }
 
-.content {
+.page {
 	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .visually-hidden {
@@ -56,6 +58,11 @@ a {
 
 footer {
 	display: flex;
+	justify-content: space-between;
+}
+
+.box {
+	width: 400px;
 }
 
 .social-media {
@@ -114,6 +121,8 @@ footer {
 /*Только для главной*/
 
 .welcome {
+	display: flex;
+	justify-content: center;
 	background-image: url(../img/polygon.png), url(../img/welcome.jpg);
 	background-repeat: no-repeat;
 	background-size: 1201px, cover;
@@ -125,7 +134,17 @@ footer {
 	display: block;
 }
 
+.facts {
+	display: flex;
+	justify-content: center;
+}
+
 /*Форма*/
+
+.book-hotel {
+	display: flex;
+	justify-content: center;
+}
 
 .book-hotel .open {
 	font-size: 21px;
