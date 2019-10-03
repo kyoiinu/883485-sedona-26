@@ -18,14 +18,11 @@ ul {
 
 .header {
 	min-height: 56px;
-	background-color: rgba(255, 192, 203, 0.2);
 	/*outline: rgb(255, 192, 203) solid;*/
 }
 
 .menu {
 	display: flex;
-	min-height: 56px;
-	background-color: rgba(255, 105, 180, 0.2);
 	/*outline: rgb(255, 105, 180) solid;*/
 }
 
