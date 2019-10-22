@@ -513,8 +513,13 @@ form {
 .result .holder p {
 	margin-bottom: 19px;
 	margin-top: 17px;
+
+	min-width: 96px;
 }
 
+.result .holder span {
+	margin-left: 21px;
+}
 
 .rating {
 	height: 24px;
@@ -528,17 +533,6 @@ form {
 	margin-bottom: 0px;
 }
 
-.hotel span {
-	margin-left: 39px;
-} 
-
-.motel span {
-	margin-left: 64px;
-}
-
-.apartment span {
-	margin-left: 21px;
-}
 
 .hotel-name a {
 	font-size: 21px;
