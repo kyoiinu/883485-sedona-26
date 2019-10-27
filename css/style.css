@@ -17,6 +17,8 @@ a {
 	width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
+	position: relative;
+    box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 
 .visually-hidden {
@@ -86,12 +88,17 @@ header ul {
 
 footer {
 
-	min-height: 120px;
+	height: 120px;
 
 	display: flex;
 	justify-content: space-around;
 
 	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.index-footer {
+	position: absolute;
+	bottom: 0px;
 }
 
 .box {
