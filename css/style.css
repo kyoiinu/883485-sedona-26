@@ -551,7 +551,7 @@ form {
 .star {
 	background-repeat: no-repeat;
 	height: 17px;
-	margin-right: 0;
+	margin-left: auto;
 }
 
 .star1 {
@@ -561,23 +561,26 @@ form {
 
 .star2 {
 	background-image: url(../img/star.svg), url(../img/star.svg);
-	background-position: 15px, 20px;
-	width: 36px;
+	background-position: 0, 23px;
+    width: 41px;
 }
 
 .star3 {
 	background-image: url(../img/star.svg), url(../img/star.svg), url(../img/star.svg);
-	width: 54px;
+	background-position: 0, 23px, 46px;
+    width: 66px;
 }
 
 .star4 {
 	background-image: url(../img/star.svg), url(../img/star.svg), url(../img/star.svg), url(../img/star.svg);
-	width: 72px;
+	background-position: 0, 23px, 46px, 69px;
+	width: 87px;
 }
 
 .star5 {
 	background-image: url(../img/star.svg), url(../img/star.svg), url(../img/star.svg), url(../img/star.svg), url(../img/star.svg);
-	width: 90px;
+	background-position: 0, 23px, 46px, 69px, 92px;
+	width: 105px;
 }
 
 .hotel-rating {
@@ -588,10 +591,9 @@ form {
 	text-align: center;
 	padding-top: 3px;
 
-	margin-top: 47px;
+	margin-top: 64px;
 	margin-bottom: 0px;
 }
-
 
 .hotel-name a {
 	font-size: 21px;
