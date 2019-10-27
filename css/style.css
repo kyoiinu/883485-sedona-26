@@ -549,35 +549,35 @@ form {
 }
 
 .star {
-	background-image: url(../img/star.svg);
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
 	height: 17px;
 	margin-right: 0;
 }
 
 .star1 {
+	background-image: url(../img/star.svg);
 	width: 18px;
-	margin-right: 0;
 }
 
 .star2 {
+	background-image: url(../img/star.svg), url(../img/star.svg);
+	background-position: 15px, 20px;
 	width: 36px;
-	margin-right: 0;
 }
 
 .star3 {
+	background-image: url(../img/star.svg), url(../img/star.svg), url(../img/star.svg);
 	width: 54px;
-	margin-right: 0;
 }
 
 .star4 {
+	background-image: url(../img/star.svg), url(../img/star.svg), url(../img/star.svg), url(../img/star.svg);
 	width: 72px;
-	margin-right: 0;
 }
 
 .star5 {
+	background-image: url(../img/star.svg), url(../img/star.svg), url(../img/star.svg), url(../img/star.svg), url(../img/star.svg);
 	width: 90px;
-	margin-right: 0;
 }
 
 .hotel-rating {
