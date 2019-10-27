@@ -32,6 +32,10 @@ a {
 
 /*Header*/
 
+header ul {
+	margin-top: 0;
+}
+
 .logo {
 	position: absolute;
 	top: 0;
@@ -57,6 +61,8 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+
+	padding: 0;
 }
 
 .menu li{
@@ -393,10 +399,18 @@ form {
 
 }
 
-.book-hotel input::-webkit-input-placeholder,
-.book-hotel input::-moz-placeholder,
-.book-hotel input:-moz-placeholder,
-.book-hotel input:-ms-input-placeholder,
+.book-hotel input::-webkit-input-placeholder{
+	color: black;
+}
+.book-hotel input::-moz-placeholder{
+	color: black;
+}
+.book-hotel input:-moz-placeholder{
+	color: black;
+}
+.book-hotel input:-ms-input-placeholder{
+	color: black;
+}
 .book-hotel input::placeholder {
 	color: black;
 }
@@ -491,7 +505,16 @@ form {
 .result ol {
 	list-style-type: none;
 	background-color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
 }
+
+.result ol h3{
+	margin-top: 0;
+	margin-bottom: 7px;
+}
+
 
 .result li {
 	border-top: solid 1px #e5e5e5;
@@ -501,23 +524,60 @@ form {
 	display: flex;
 }
 
+.result li:nth-child(2) h3{
+	margin-bottom: 8px;
+}
+
 .result li:last-child {
     border-bottom: solid 1px #e5e5e5;
 }
-
 
 .result .holder {
 	margin-left: 30px;
 }
 
 .result .holder p {
-	margin-bottom: 19px;
-	margin-top: 17px;
+	margin-bottom: 13px;
+	margin-top: 0;
 }
 
 .result .holder span {
+	display: inline-block;
+	
 	margin-right: 21px;
 	min-width: 96px;
+}
+
+.star {
+	background-image: url(../img/star.svg);
+	background-repeat: repeat-x;
+	height: 17px;
+	margin-right: 0;
+}
+
+.star1 {
+	width: 18px;
+	margin-right: 0;
+}
+
+.star2 {
+	width: 36px;
+	margin-right: 0;
+}
+
+.star3 {
+	width: 54px;
+	margin-right: 0;
+}
+
+.star4 {
+	width: 72px;
+	margin-right: 0;
+}
+
+.star5 {
+	width: 90px;
+	margin-right: 0;
 }
 
 .hotel-rating {
@@ -528,7 +588,7 @@ form {
 	text-align: center;
 	padding-top: 3px;
 
-	margin-top: 0px;
+	margin-top: 47px;
 	margin-bottom: 0px;
 }
 
@@ -550,8 +610,6 @@ form {
 .result .blocks {
 	display: flex;
 	min-height: 27px;
-
-	margin-top: 16px;
 }
 
 .result .more {
