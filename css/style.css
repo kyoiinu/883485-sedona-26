@@ -264,7 +264,6 @@ footer {
 }
 
 .main-list .fact1 {
-	width: 400px;
 }
 
 .fact1 {
@@ -277,6 +276,10 @@ footer {
 	padding-bottom: 64px;
 	padding-right: 60px;
 	padding-left: 60px; 
+	width: 100%;
+}
+.fact1 .feature-picture {
+	width: 800px;
 }
 
 .fact1 .real-city h3 {
