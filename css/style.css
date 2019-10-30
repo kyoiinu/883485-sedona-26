@@ -221,7 +221,7 @@ footer {
 }
 
 
-.facts {
+.introduce {
 	background-color: white;
 
 	display: flex;
@@ -232,15 +232,69 @@ footer {
 	padding-top: 61px; 
 }
 
-.facts .text {
+.introduce .text {
 	font-weight: 700;
 	font-size: 21px;
 }
 
-.facts .reason {
+.introduce .reason {
 	margin-top: 38px;
 	margin-bottom: 56px;
 
+}
+
+.facts {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.facts ul {
+	list-style-type: none;
+
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.main-list li {
+	text-align: center;
+}
+
+.fact1 {
+	display: flex;
+	background-color: #81b3d2;
+	color: white;
+	flex-wrap: wrap;
+	width: 400px;
+}
+
+.fact1 .txt {
+	padding-top: 46px;
+	padding-bottom: 64px;
+	padding-right: 60px;
+	padding-left: 60px; 
+}
+
+.fact1 .txt h3 {
+	margin: 0;
+	font-size: 21px;
+}
+
+.fact1 .txt p {
+	margin: 0;
+}
+
+.fact1 .txt span {
+	display: inline-block;
+	margin-top: 21px; 
+}
+
+.fact1 ul{
+	display: flex;
+	justify-content: space-around;
+
+	height: 330px;
 }
 
 /*Форма*/
