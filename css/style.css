@@ -255,6 +255,9 @@ footer {
 
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.facts ul {
 	padding: 0;
 	margin: 0;
 }
@@ -264,34 +267,34 @@ footer {
 }
 
 .main-list .fact1 {
+	width: 100%;
 }
 
 .fact1 {
+	display: flex;
+	flex-wrap: wrap;
 	background-color: #81b3d2;
 	color: white;
 }
 
-.fact1 .real-city {
+.fact1 .real-city-text {
 	padding-top: 46px;
 	padding-bottom: 64px;
 	padding-right: 60px;
 	padding-left: 60px; 
-	width: 100%;
+	width: 280px;
+	margin: 0;
 }
 .fact1 .feature-picture {
 	width: 800px;
 }
 
-.fact1 .real-city h3 {
+.fact1 .real-city-text h3 {
 	margin: 0;
 	font-size: 21px;
 }
 
-.fact1 .real-city p {
-	margin: 0;
-}
-
-.fact1 .real-city span {
+.fact1 .real-city-text span {
 	display: inline-block;
 	margin-top: 21px; 
 }
