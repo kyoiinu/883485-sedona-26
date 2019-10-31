@@ -6,7 +6,6 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="normalize/normalize/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--<link rel="stylesheet" type="text/css" href="css/setka-h.css">-->
   </head>
   <body>
 
@@ -24,8 +23,23 @@
     </nav>
    </header>
 
+
   <main>
     <h1 class="visually-hidden">Поиск отеля</h1>
+   <section class="filter">
+     <form class="infrastructure">
+      <h3>Инфраструктура:</h3>
+       <input type="checkbox" name="infrastructure" id="pool" checked> <label for="pool">Бассейн</label><br>
+       <input type="checkbox" name="infrastructure" id="parking"> <label for="parking">Парковка</label><br>
+       <input type="checkbox" name="infrastructure" id="wifi"> <label for="wifi">Wi-Fi</label><br>
+     </form>
+     <form class="hotel-type">
+       <h3>Тип жилья:</h3>
+       <input type="checkbox" name="hotel-type" id="hotel" checked><label for="hotel">Гостиница</label><br>
+       <input type="checkbox" name="hotel-type" id="motel" checked><label for="motel">Мотель</label><br>
+       <input type="checkbox" name="hotel-type" id="apartment" checked><label for="apartment">Апартаменты</label><br>
+     </form>
+   </section>
     <section class="result">
       <h2 class="visually-hidden">Результат</h2>
       <ol>
