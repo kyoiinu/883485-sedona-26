@@ -13,6 +13,15 @@ a {
 	text-decoration: none;
 }
 
+p,
+ul,
+h3,
+h2,
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
 .page {
 	width: 1200px;
 	margin-right: auto;
@@ -121,8 +130,6 @@ footer {
 }
 
 .box:nth-child(2) ul {
-	padding: 0;
-	margin: 0;
 	height: 48px;
 }
 
@@ -244,9 +251,6 @@ footer {
 
 .facts {
 	position: relative;
-
-	margin: 0;
-	padding: 0;
 }
 
 .main-list {
@@ -254,14 +258,8 @@ footer {
 
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0;
-	padding: 0;
-	margin-bottom: 57px;
-}
 
-.facts ul {
-	padding: 0;
-	margin: 0;
+	margin-bottom: 57px;
 }
 
 .main-list li {
@@ -272,33 +270,44 @@ footer {
 	width: 100%;
 }
 
-.fact1 {
+.fact1,
+.fact2 {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #81b3d2;
 	color: white;
 }
 
-.fact1 .real-city-text {
+.fact1 .real-city-text,
+.fact2 .fact2-text {
 	padding-top: 46px;
 	padding-bottom: 35px;
 	padding-right: 60px;
 	padding-left: 60px; 
 	width: 280px;
-	margin: 0;
 }
 .fact1 .feature-picture {
 	width: 800px;
 }
 
-.fact1 .real-city-text h3 {
-	margin: 0;
+.main-list h3 {
 	font-size: 21px;
 }
 
-.fact1 .real-city-text span {
+.fact1 .real-city-text span,
+.fact2 .fact2-text span,
+.last-point span {
 	display: inline-block;
 	margin-top: 21px; 
+}
+
+.fact2 .fact2-text p,
+.last-point p {
+	margin-top: 29px; 
+}
+
+.last-point p {
+	color: #333333;
 }
 
 .real-city-list {
@@ -306,11 +315,10 @@ footer {
 	display: flex;
 	justify-content: space-around;
 
-	margin: 0;
-	padding: 0;
-
-	background-color: #f2f2f2;
+	background-color: white;
 	color: #333333;
+
+	height: 330px;
 }
 
 .real-city-list li {
@@ -333,31 +341,25 @@ footer {
 	margin-top: 28px;
 	margin-bottom: 31px;
 }
-.living {
-
-}
 
 .food span {
 	margin-bottom: 26px; 
 
 }
 
-.food {
-	padding-bottom: 87px;
-	padding-top: 62px;
-	padding-right: 58px;
-	padding-left: 58px;
-}
-
 .souvenirs span {
 	margin-bottom: 28px; 
 }
 
-.souvenirs {
-	padding-top: 56px;
-	padding-left: 64px;
+.last-point {
+	width: 400px;
+	padding-top: 50px;
+	padding-bottom: 64px;
+	padding-right: auto;
+	padding-left: auto;
+	text-align: center;
+	background-color: #eeeeee;
 }
-
 /*Форма*/
 
 .book-hotel {
@@ -366,16 +368,13 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-top: 57px;
 }
 
 .booking {
 	text-align: center;
 }
-
 .booking .text {
-	margin: 0;
-	padding: 0;
+	margin-bottom: 38px;
 }
 
 .form {
@@ -650,9 +649,7 @@ footer {
 }
 
 .filter h3 {
-	margin: 0;
 	margin-bottom: 28px;
-	padding: 0;
 }
 .filter input {
 	margin-bottom: 23px;
