@@ -649,25 +649,16 @@ footer {
 .filter h3 {
 	margin-bottom: 28px;
 }
-.filter input {
-	margin-bottom: 23px;
-}
 
-.filter label {         /**********************************************************************/
-	margin-left: 42px; /*Потом это проставить галочкам и квадратикам, а тут убрать!!!!!!!!!!!*/
-}                     /**********************************************************************/
+.filter label {         
+	margin-bottom: 23px;	                   
+	margin-left: 42px; /*Потом это проставить галочкам и квадратикам, а тут убрать*/
+}                    
 
-.filter label::before {
-	display: inline-block;
-	content: '';
-	height: 23px;
-	width: 23px;
-}
-
-..filter input[type="checkbox"] + label::before  {
-	background-image: url(../img/checkbox-off.svg);
-	background-size: 100%;
-	background-color: white;
+.custom-check input::before {
+	width: 27px;
+	height: 27px;
+	background-image: url(../img/checkbox-ogg.png);
 }
 
 .filter input[type="checkbox"] {
