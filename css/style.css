@@ -228,7 +228,6 @@ footer {
 	flex-direction: column;
 
 	text-align: center;
-
 	padding-top: 61px; 
 }
 
@@ -250,11 +249,14 @@ footer {
 	padding: 0;
 }
 
-.facts .main-list {
+.main-list {
 	list-style-type: none;
 
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 57px;
 }
 
 .facts ul {
@@ -279,7 +281,7 @@ footer {
 
 .fact1 .real-city-text {
 	padding-top: 46px;
-	padding-bottom: 64px;
+	padding-bottom: 35px;
 	padding-right: 60px;
 	padding-left: 60px; 
 	width: 280px;
@@ -299,10 +301,61 @@ footer {
 	margin-top: 21px; 
 }
 
-.fact1 .real-city-list{
+.real-city-list {
 	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
+
+	margin: 0;
+	padding: 0;
+
+	background-color: #f2f2f2;
+	color: #333333;
+}
+
+.real-city-list li {
+	padding-bottom: 86px;
+	padding-top: 62px;
+	padding-right: 63px;
+	padding-left: 73px;
+}
+
+.real-city-list span {
+	display: inline-block;
+	color: black;
+	font-weight: 700;
+	font-size: 21px;
+	margin-bottom: 26px;
+	margin-top: 32px;
+}
+
+.living span {
+	margin-top: 28px;
+	margin-bottom: 31px;
+}
+.living {
+
+}
+
+.food span {
+	margin-bottom: 26px; 
+
+}
+
+.food {
+	padding-bottom: 87px;
+	padding-top: 62px;
+	padding-right: 58px;
+	padding-left: 58px;
+}
+
+.souvenirs span {
+	margin-bottom: 28px; 
+}
+
+.souvenirs {
+	padding-top: 56px;
+	padding-left: 64px;
 }
 
 /*Форма*/
@@ -313,17 +366,23 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin-top: 57px;
 }
 
 .booking {
 	text-align: center;
 }
 
+.booking .text {
+	margin: 0;
+	padding: 0;
+}
+
 .form {
 	position: relative;
  }
 
-form {
+.form-index {
     box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
 	position: absolute;
 	top: 0;
@@ -578,6 +637,57 @@ form {
 
 /*Гостиницы*/
 
+.filter {
+	background-image: url(../img/filter-background.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	display: flex;
+	color: white;
+	padding-top: 31px;
+	padding-left: 72px;
+	padding-right: 72px;
+	padding-bottom: 31px;
+}
+
+.filter h3 {
+	margin: 0;
+	margin-bottom: 28px;
+	padding: 0;
+}
+.filter input {
+	margin-bottom: 23px;
+}
+
+.filter label {         /**********************************************************************/
+	margin-left: 42px; /*Потом это проставить галочкам и квадратикам, а тут убрать!!!!!!!!!!!*/
+}                     /**********************************************************************/
+
+.filter label::before {
+	display: inline-block;
+	content: '';
+	height: 23px;
+	width: 23px;
+}
+
+..filter input[type="checkbox"] + label::before  {
+	background-image: url(../img/checkbox-off.svg);
+	background-size: 100%;
+	background-color: white;
+}
+
+.filter input[type="checkbox"] {
+  display: none;
+}
+
+.infrastructure {
+}
+
+.hotel-type {
+	margin-left: 115px;
+}
+
+
+
 .result ol {
 	list-style-type: none;
 	background-color: white;
@@ -667,7 +777,7 @@ form {
 	text-align: center;
 	padding-top: 3px;
 
-	margin-top: 64px;
+	margin-top: 46px;
 	margin-bottom: 0px;
 }
 
