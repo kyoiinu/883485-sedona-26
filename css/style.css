@@ -694,8 +694,12 @@ footer {
 	width: 330px;
     margin-left: auto;
 
-  color: #ffffff;
-  text-transform: uppercase;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.price-filter h3 {
+	margin-bottom: 11px;
 }
 
 .price-filter-content {
@@ -749,9 +753,14 @@ footer {
 	margin-right: 40px;
 }
 
+.sort-text-buttons {
+	display: flex;
+}
+
 .result-filter h3 {
 	margin-right: 43px;
 	font-size: 21px;
+	min-width: 22px;
 }
 
 .result-filter button {
@@ -769,6 +778,32 @@ footer {
 	border: none;
 	color: #81b3d2; 
 }
+
+.result-filter .up-n-down button {
+	border: none;
+	margin-right: 0;
+	margin-left: 2px;
+}
+
+.result-filter .up-n-down path {
+	fill: #cacaca;
+}
+
+.result-filter .up-n-down .current-button path {
+	fill: #81b3d2;
+}
+
+.result-filter .up-n-down {
+	margin-left: auto; 
+}
+
+.result-filter .up-n-down button:hover path {
+	fill: #000000;
+}
+.result-filter .up-n-down button:active path {
+	fill: #81b3d2;
+}
+
 
 .hotel-type {
 	margin-left: 115px;
