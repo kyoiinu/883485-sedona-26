@@ -391,6 +391,7 @@ footer {
 	min-height: 356px;
 }
 
+
 .form form label {
 	font-weight: 700;
 }
@@ -847,7 +848,7 @@ footer {
 
 .sort-text-buttons {
 	display: flex;
-	justify-content: bottom;
+    margin-top: 4px;
 }
 
 .result-filter h3 {
@@ -875,7 +876,7 @@ footer {
 .result-filter .up-n-down button {
 	border: none;
 	margin-right: 0;
-	margin-left: 2px;
+	margin-left: 5px;
 }
 
 .result-filter .up-n-down path {
