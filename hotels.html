@@ -40,18 +40,21 @@
        <div class="custom-check"><input type="checkbox" name="hotel-type" id="apartment" checked><label for="apartment">Апартаменты</label><br></div>
      </form>
 
-     <form class="price-filter">
-      <h3>Стоимость в сутки (р):</h3>
-      <div class="price-filter-content">
-       <label for="min-price" class="min-price">от</label><input type="text" name="min-price" id="min-price">
-       <label for="max-price" class="max-price">до</label><input type="text" name="max-price" id="max-price">
+     <form class="filter-range">
+      <h3 class="filter-range-title">Стоимость в сутки (р):</h3>
+      <div class="price-controls">
+        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
       </div>
-       <div class="price-controls">
-          <div class="range-toggle range-toggle-min"></div>
-          <div class="range-toggle range-toggle-max"></div>
-       </div>
-       <button>Показать</button>
-     </form>
+      <div class="range-controls">
+        <div class="scale">
+          <div class="bar"></div>
+        </div>
+        <div class="range-toggle range-toggle-min"></div>
+        <div class="range-toggle range-toggle-max"></div>
+      </div>
+      <button class="show-hotels" type="submit">Показать</button>
+    </form>
 
    </section>
 
