@@ -1,0 +1,1 @@
+var formIndex=document.querySelector(".form-index"),buttonOpen=document.querySelector(".open");buttonOpen.addEventListener("click",function(){formIndex.classList.toggle("visually-hidden"),buttonOpen.classList.toggle("close")});
