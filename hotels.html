@@ -39,8 +39,31 @@
        <div class="custom-check"><input type="checkbox" name="hotel-type" id="motel" checked><label for="motel">Мотель</label><br></div>
        <div class="custom-check"><input type="checkbox" name="hotel-type" id="apartment" checked><label for="apartment">Апартаменты</label><br></div>
      </form>
+
+     <form class="price-filter">
+      <h3>Стоимость в сутки (р):</h3>
+      <div class="price-filter-content">
+       <label for="min-price" class="min-price">от</label><input type="text" name="min-price" id="min-price">
+       <label for="max-price" class="max-price">до</label><input type="text" name="max-price" id="max-price">
+      </div>
+       <div class="price-controls">
+          <div class="range-toggle range-toggle-min"></div>
+          <div class="range-toggle range-toggle-max"></div>
+       </div>
+       <button>Показать</button>
+     </form>
+
    </section>
-    <section class="result">
+
+     <div class="result-filter">
+       <h3>Найдено: 3</h3>
+       <p>Сортировка:</p>
+       <button class="price current-button">По цене</button>
+       <button class="type">По типу</button>
+       <button class="rating">По рейтингу</button>
+     </div>    
+
+     <section class="result">
       <h2 class="visually-hidden">Результат</h2>
       <ol>
         <li class="hotel">
