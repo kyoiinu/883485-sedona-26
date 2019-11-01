@@ -222,10 +222,7 @@ footer {
 	background-position: bottom center, center -84px;
 
 	padding-top: 76px;
-}
-
-.welcome .svg {
-	margin-bottom: 79px;
+	padding-bottom: 79px;
 }
 
 
@@ -321,6 +318,7 @@ footer {
 }
 
 .real-city-list li {
+	width: 400px;
 	padding-bottom: 86px;
 	padding-top: 62px;
 	padding-right: 63px;
