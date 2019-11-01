@@ -2,6 +2,6 @@
   var buttonOpen = document.querySelector(".open");
 
   buttonOpen.addEventListener("click", function(){
-    formIndex.classList.add("visually-hidden");
+    formIndex.classList.toggle("visually-hidden");
     buttonOpen.classList.toggle("close");
   })
