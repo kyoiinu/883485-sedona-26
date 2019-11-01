@@ -29,19 +29,24 @@
    <section class="filter">
      <form class="infrastructure">
       <h3>Инфраструктура:</h3>
-       <div class="custom-check"><input type="checkbox" name="infrastructure" id="pool" checked> <label for="pool">Бассейн</label></div>
-       <div class="custom-check"><input type="checkbox" name="infrastructure" id="parking"> <label for="parking">Парковка</label></div>
-       <div class="custom-check"><input type="checkbox" name="infrastructure" id="wifi"> <label for="wifi">Wi-Fi</label></div>
+    <fieldset>
+       <div class="custom-check"><input type="checkbox" name="infrastructure" id="pool" checked class="visually-hidden"> <label for="pool">Бассейн</label></div>
+       <div class="custom-check"><input type="checkbox" name="infrastructure" id="parking" class="visually-hidden"> <label for="parking">Парковка</label></div>
+       <div class="custom-check"><input type="checkbox" name="infrastructure" id="wifi" class="visually-hidden"> <label for="wifi">Wi-Fi</label></div>
+    </fieldset>
      </form>
      <form class="hotel-type">
        <h3>Тип жилья:</h3>
-       <div class="custom-check"><input type="checkbox" name="hotel-type" id="hotel" checked><label for="hotel">Гостиница</label></div>
-       <div class="custom-check"><input type="checkbox" name="hotel-type" id="motel" checked><label for="motel">Мотель</label></div>
-       <div class="custom-check"><input type="checkbox" name="hotel-type" id="apartment" checked><label for="apartment">Апартаменты</label></div>
+    <fieldset>
+       <div class="custom-check"><input type="checkbox" name="hotel-type" id="hotel" checked class="visually-hidden"><label for="hotel">Гостиница</label></div>
+       <div class="custom-check"><input type="checkbox" name="hotel-type" id="motel" checked class="visually-hidden"><label for="motel">Мотель</label></div>
+       <div class="custom-check"><input type="checkbox" name="hotel-type" id="apartment" checked class="visually-hidden"><label for="apartment">Апартаменты</label></div>
+    </fieldset>
      </form>
 
      <form class="filter-range">
       <h3 class="filter-range-title">Стоимость в сутки (р):</h3>
+    <fieldset>
       <div class="price-controls">
         <label class="min-price">от <input type="text" name="min-price" value="0"></label>
         <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
@@ -53,6 +58,7 @@
         <div class="range-toggle range-toggle-min"></div>
         <div class="range-toggle range-toggle-max"></div>
       </div>
+    </fieldset>
       <button class="show-hotels" type="submit">Показать</button>
     </form>
 
