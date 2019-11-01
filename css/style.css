@@ -708,6 +708,33 @@ footer {
 	background-repeat: no-repeat;
 }
 
+.custom-check input[type="checkbox"]:checked:disabled + label::before {
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 23px;	                   
+	content: '';
+	position: absolute;
+	left: 0px;
+	width: 27px;
+	height: 23px;
+	background-image: url(../img/checkbox-on-2.png);
+	background-repeat: no-repeat;
+}
+
+.custom-check input[type="checkbox"]:disabled + label::before {
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 17px;	                   
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 27px;
+	height: 27px;
+	background-image: url(../img/checkbox-off-3.png);
+	background-repeat: no-repeat;
+}
 
 .filter-range {
     width: 330px;
