@@ -655,24 +655,124 @@ footer {
 	margin-left: 42px; /*Потом это проставить галочкам и квадратикам, а тут убрать*/
 }                    
 
-.custom-check input::before {
+.custom-check {
+	position: relative;
+	margin-bottom: 23px;
+}
+
+.custom-check label::before {
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 17px;	                   
+	content: '';
+	position: absolute;
+	left: 0;
 	width: 27px;
 	height: 27px;
-	background-image: url(../img/checkbox-ogg.png);
+	background-image: url(../img/checkbox-off.png);
+	background-repeat: no-repeat;
+}
+
+.custom-check input[type="checkbox"]:checked + label::before {
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 23px;	                   
+	content: '';
+	position: absolute;
+	left: 0px;
+	width: 27px;
+	height: 23px;
+	background-image: url(../img/checkbox-on.png);
+	background-repeat: no-repeat;
 }
 
 .filter input[type="checkbox"] {
   display: none;
 }
 
-.infrastructure {
+.price-filter {
+	width: 330px;
+    margin-left: auto;
+
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.price-filter-content {
+	border: 2px solid white;
+	border-radius: 2px;
+
+    margin-bottom: 20px;
+
+	height: 32px;
+	width: 314px;
+}
+
+.price-filter-content label {
+	display: inline-block;
+
+    font-size: 14px;
+    line-height: 38px;
+    vertical-align: top;
+
+	cursor: pointer;
+}
+
+.price-filter-content input{
+  width: 50px;
+  margin: 0;
+
+  color: inherit;
+  font: inherit;
+
+  background: none;
+  border: none;
+}
+
+.price-filter-content .min-price,
+.price-filter-content .max-price {
+	width: 90px;
+	padding-left: 35px;
+}
+
+.result-filter {
+	display: flex;
+	background-color: white;
+	padding-left: 72px;
+	padding-top: 31px;
+	padding-bottom: 33px;
+	padding-right: 73px;
+}
+
+.result-filter p {
+	font-size: 12px;
+	margin-right: 40px;
+}
+
+.result-filter h3 {
+	margin-right: 43px;
+	font-size: 21px;
+}
+
+.result-filter button {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px dotted #81b3d2;
+	margin-right: 33px;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: rgba(0, 1, 1, 0.2);
+	padding: 0;
+}
+
+.result-filter .current-button {
+	border: none;
+	color: #81b3d2; 
 }
 
 .hotel-type {
 	margin-left: 115px;
 }
-
-
 
 .result ol {
 	list-style-type: none;
