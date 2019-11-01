@@ -256,8 +256,6 @@ footer {
 
 	display: flex;
 	flex-wrap: wrap;
-
-	margin-bottom: 57px;
 }
 
 .main-list li {
@@ -318,14 +316,32 @@ footer {
 }
 
 .real-city-list li {
-	width: 400px;
+	width: 33.333%;
 	padding-bottom: 86px;
-	padding-top: 62px;
-	padding-right: 63px;
-	padding-left: 73px;
+	padding-top: 161px;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
-.real-city-list span {
+.real-city-list .living {
+	background-image: url(../img/icon-1.svg);
+	background-repeat: no-repeat;
+	background-position: center 60px;
+}
+
+.real-city-list .food {
+	background-image: url(../img/icon-3.svg);
+	background-repeat: no-repeat;
+	background-position: center 62px;
+}
+
+.real-city-list .souvenirs {
+	background-image: url(../img/icon-2.svg);
+	background-repeat: no-repeat;
+	background-position: center 56px;
+}
+
+.real-city-list h4 {
 	display: inline-block;
 	color: black;
 	font-weight: 700;
@@ -349,9 +365,12 @@ footer {
 }
 
 .last-point {
+	box-sizing: border-box;
 	width: 400px;
+	padding: 15px;
 	padding-top: 50px;
 	padding-bottom: 64px;
+
 	text-align: center;
 	background-color: #eeeeee;
 }
@@ -363,6 +382,8 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+
+	padding-top: 57px;
 }
 
 .booking {
@@ -384,6 +405,8 @@ footer {
 	margin-left: -284px;
 	width: 568px;
 	background-color: white; 
+
+	padding-top: 55px; 
 
 	min-height: 356px;
 }
@@ -436,7 +459,6 @@ footer {
     border: none;
 
     margin-top: 54px;
-    margin-bottom: 55px;
     margin-right: 55px;
     margin-left: 55px;
 }
@@ -566,7 +588,6 @@ footer {
 	position: relative;
 
 	width: 459px;
-	margin-top: 55px;
 	margin-right: 55px;
 	margin-left: 55px;
 }
@@ -605,6 +626,7 @@ footer {
 
 	margin-left: 55px;
 	margin-top: 30px;
+	align-items: center;
 }
 
 .children {
@@ -612,6 +634,7 @@ footer {
 	margin-right: 53px;
 	margin-top: 30px;
 	margin-left: 53px;
+	align-items: center;
 }
 
 .count {
@@ -626,7 +649,6 @@ footer {
 }
 
 .count label {
-	margin-top: 7px;
 }
 
 
@@ -693,6 +715,8 @@ footer {
 
     color: #ffffff;
     text-transform: uppercase;
+
+    padding-bottom: 33px; 
 }
 
 .filter-range h3{
@@ -809,7 +833,6 @@ footer {
 .filter-range .show-hotels {
     display: block;
     margin: 0 auto;
-    margin-bottom: 33px;
     padding: 6px 35px;
 
     font-size: 14px;
