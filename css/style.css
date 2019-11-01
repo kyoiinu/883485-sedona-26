@@ -97,9 +97,6 @@ header ul {
 /*Footer*/
 
 footer {
-
-	height: 120px;
-
 	display: flex;
 	justify-content: space-around;
 
@@ -293,8 +290,10 @@ footer {
 .fact1 .real-city-text span,
 .fact2 .fact2-text span,
 .last-point span {
-	display: inline-block;
-	margin-top: 21px; 
+	display: block;
+	text-align: center;
+	margin-top: 21px;
+	margin-bottom: 24px; 
 }
 
 .fact2 .fact2-text p,
@@ -350,19 +349,6 @@ footer {
 	margin-top: 32px;
 }
 
-.living span {
-	margin-top: 28px;
-	margin-bottom: 31px;
-}
-
-.food span {
-	margin-bottom: 26px; 
-
-}
-
-.souvenirs span {
-	margin-bottom: 28px; 
-}
 
 .last-point {
 	box-sizing: border-box;
@@ -671,7 +657,8 @@ footer {
 
 .filter label {         
 	margin-bottom: 23px;	                   
-	margin-left: 42px; /*Потом это проставить галочкам и квадратикам, а тут убрать*/
+	margin-left: 42px; 
+	vertical-align: middle;
 }                    
 
 .custom-check {
@@ -1005,7 +992,6 @@ footer {
 }
 
 .hotel-rating {
-	height: 24px;
 	width: 110px;
 	background-color: #f2f2f2;
 	color: #666666;
@@ -1038,7 +1024,6 @@ footer {
 .result .more {
 	display: block;
 
-	height: 24px;
 	width: 110px;
 
 	padding-top: 3px;
@@ -1074,7 +1059,6 @@ footer {
 	background-color: #766357;
 
 	width: 142px;
-	height: 27px;
 
 	margin-left: 6px;
 	margin-right: 522px;
