@@ -927,10 +927,6 @@ footer {
     cursor: pointer;
 }
 
-.filter-range .range-toggle:hover {
-    background: #1c4f80;
-}
-
 .filter-range .range-toggle-min {
     left: 0;
 }
