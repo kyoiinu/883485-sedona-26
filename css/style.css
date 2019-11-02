@@ -37,6 +37,7 @@ a {
 /*Header*/
 
 header ul {
+	margin: 0;
 	margin-top: 0;
 }
 
