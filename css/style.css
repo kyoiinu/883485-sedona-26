@@ -14,21 +14,13 @@ a {
 	color: black;
 }
 
-p,
-ul,
-h3,
-h2,
-h1 {
-	margin: 0;
-	padding: 0;
-}
-
 .page {
 	width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
-    box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
+    -webkit-box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
+            box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 
 .visually-hidden {
@@ -46,6 +38,10 @@ h1 {
 
 header ul {
 	margin-top: 0;
+}
+
+header {
+	margin: 0;
 }
 
 .logo {
@@ -70,10 +66,14 @@ header ul {
 	color: black;
 
 	list-style-type: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	flex-wrap: wrap;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 
 	padding: 0;
 }
@@ -98,9 +98,13 @@ header ul {
 /*Footer*/
 
 footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 
 	background-color: rgba(255, 255, 255, 0.9);
 }
@@ -134,9 +138,14 @@ footer {
 }
 
 .box:last-child {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .box:last-child svg {
@@ -152,10 +161,15 @@ footer {
 }
 
 .social-media {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	list-style-type: none;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .social-media ul {
@@ -178,10 +192,19 @@ footer {
 	height: 48px;
 	width: 46px;
 
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
 	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 
 	background-color: #81b3d2;
 }
@@ -216,9 +239,14 @@ footer {
 /*Только для главной*/
 
 .welcome {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	background-image: url(../img/polygon.png), url(../img/welcome.jpg);
 	background-repeat: no-repeat;
 	background-size: 1201px, cover;
@@ -232,9 +260,17 @@ footer {
 .introduce {
 	background-color: white;
 
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 
 	text-align: center;
 	padding-top: 61px; 
@@ -258,8 +294,13 @@ footer {
 .main-list {
 	list-style-type: none;
 
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 }
 
 .main-list li {
@@ -272,8 +313,11 @@ footer {
 
 .fact1,
 .fact2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	background-color: #81b3d2;
 	color: white;
 }
@@ -314,8 +358,11 @@ footer {
 
 .real-city-list {
 	list-style-type: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 
 	background-color: white;
 	color: #333333;
@@ -359,7 +406,11 @@ footer {
 
 
 .last-point {
-	box-sizing: border-box;
+	
+    -webkit-box-sizing: border-box;
+	
+            box-sizing: border-box;
+
 	width: 400px;
 	padding: 15px;
 	padding-top: 50px;
@@ -373,9 +424,18 @@ footer {
 .book-hotel {
 	background-color: white;
 
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 
 	padding-top: 57px;
 }
@@ -392,7 +452,8 @@ footer {
  }
 
 .form-index {
-    box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
+    -webkit-box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
+            box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -551,10 +612,10 @@ footer {
 .book-hotel input::-moz-placeholder{
 	color: black;
 }
-.book-hotel input:-moz-placeholder{
+.book-hotel input:-ms-input-placeholder{
 	color: black;
 }
-.book-hotel input:-ms-input-placeholder{
+.book-hotel input::-ms-input-placeholder {
 	color: black;
 }
 .book-hotel input::placeholder {
@@ -615,23 +676,33 @@ footer {
 }
 
 .adult {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	position: relative;
 
 	margin-left: 55px;
 	margin-top: 30px;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 .children {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-right: 53px;
 	margin-top: 30px;
 	margin-left: 53px;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 .count {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -652,11 +723,14 @@ footer {
 	background-image: url(../img/filter-background.jpg);
 	background-repeat: no-repeat;
 	background-position: 0px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	color: white;
 	padding-top: 31px;
 	padding-left: 72px;
 	padding-right: 72px;
+	margin: 0;
 }
 
 .filter fieldset {
@@ -666,6 +740,7 @@ footer {
 }
 
 .filter h3 {
+	margin: 0;
 	margin-bottom: 28px;
 }
 
@@ -780,8 +855,11 @@ footer {
     height: 22px;
 
     background: #ffffff;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
+
 
 .filter-range .price-controls label {
     display: inline-block;
@@ -811,6 +889,7 @@ footer {
 
     background: none;
     border: none;
+    height: 37px;
 }
 
 .filter-range .range-controls {
@@ -842,7 +921,8 @@ footer {
     background: #ababab;
     border: 8px solid #ffffff;
     border-radius: 50%;
-    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+            box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
     cursor: pointer;
 }
 
@@ -881,8 +961,11 @@ footer {
 }
 
 .result-filter {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	background-color: white;
 	padding-left: 72px;
 	padding-top: 31px;
@@ -892,16 +975,21 @@ footer {
 
 .result-filter p {
 	font-size: 12px;
+	margin: 0;
 	margin-right: 40px;
 }
 
 .sort-text-buttons {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
     margin-top: 4px;
 }
 
 .result-filter h3 {
+	margin: 0;
 	margin-right: 43px;
 	font-size: 21px;
 	min-width: 22px;
@@ -972,8 +1060,13 @@ footer {
 
 	padding: 30px 72px;
 
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 }
 
 .result li:nth-child(2) h3{
@@ -1041,10 +1134,10 @@ footer {
 	background-color: #f2f2f2;
 	color: #666666;
 	text-align: center;
-	padding-top: 3px;
-
+	padding-top: 2px;
+	padding-bottom: 2px; 
+	margin: 0;
 	margin-top: 46px;
-	margin-bottom: 0px;
 }
 
 .hotel-name a {
@@ -1062,8 +1155,11 @@ footer {
 }
 
 .result .blocks {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	min-height: 27px;
 }
 
@@ -1072,7 +1168,8 @@ footer {
 
 	width: 110px;
 
-	padding-top: 3px;
+	padding-top: 2.5px;
+	padding-bottom: 2px;
 
 	background-color: #81b3d2;
 	color: white;
